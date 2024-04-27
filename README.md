@@ -1,5 +1,7 @@
-Markdown
+
 # Project Name
+
+Library Management System
 
 ## Overview
 
@@ -25,3 +27,7 @@ Sequelize Migrations:
 
 # Run Sequelize migrations to set up your PostgreSQL database schema:
 npx sequelize-cli db:migrate
+
+# Usage
+After setting up the database and completing the installation steps, you can start the server by running:
+npm start for both frontend and backend files
