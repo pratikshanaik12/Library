@@ -8,24 +8,20 @@ This project is a boilerplate for developing web applications using React, TypeS
 ## Installation
 
  ## **Clone the repository:**
-
-   ```bash
    git clone <repository-url>
    cd <project-directory>
    npm install
-Use code with caution.
-content_copy
-Database Setup:
+   
+
+
+## Database Setup:
 
 PostgreSQL:
 
-Ensure you have PostgreSQL installed and running. Update the `config/config.json` file with your PostgreSQL database credentials.
-Firebase:
+Ensure you have PostgreSQL installed and running. Update the `config/config.json` file with your PostgreSQL database credentials and do the same for Firestore.
 
-Update the `config/config.json` file with your Firebase project configuration.
+# Update the `config/config.json` file with your Firebase project configuration.
 Sequelize Migrations:
 
-Run Sequelize migrations to set up your PostgreSQL database schema:
-
-Bash
+# Run Sequelize migrations to set up your PostgreSQL database schema:
 npx sequelize-cli db:migrate
