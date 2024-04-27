@@ -22,10 +22,10 @@ PostgreSQL:
 
 Ensure you have PostgreSQL installed and running. Update the `config/config.json` file with your PostgreSQL database credentials and do the same for Firestore.
 
-# Update the `config/config.json` file with your Firebase project configuration.
+## Update the `config/config.json` file with your Firebase project configuration.
 Sequelize Migrations:
 
-# Run Sequelize migrations to set up your PostgreSQL database schema:
+## Run Sequelize migrations to set up your PostgreSQL database schema:
 npx sequelize-cli db:migrate
 
 # Usage
